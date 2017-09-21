@@ -1,0 +1,42 @@
+{
+	"actions": [
+      {
+        "description": "Default Welcome Intent",
+        "name": "MAIN",
+        "fulfillment": {
+          "conversationName": "myCoolConversation"
+        },
+        "intent": {
+          "name": "actions.intent.MAIN",
+          "trigger": {
+            "queryPatterns": [
+              "talk to my cool action"
+            ]
+          }
+        }
+      },
+      {
+        "description": "Deep linking Intent",
+        "name": "DEEPLINK_INTENT",
+        "fulfillment": {
+          "conversationName": "myCoolConversation"
+        },
+        "intent": {
+          "name": "MY_COOL_DEEPLINK_INTENT",
+          "trigger": {
+            "queryPatterns": [
+              "know more about this project",
+              "ask about this project"
+            ]
+          }
+        }
+      }
+    ],
+    "conversations": {
+      "myCoolConversation": {
+        "name": "myCoolConversation",
+        "url": "https://us-central1-mycoolaction.cloudfunctions.net/myCoolFunction"
+      }
+    }
+
+}
