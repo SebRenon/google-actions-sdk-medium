@@ -1,5 +1,6 @@
 # Dependency directories
 */node_modules/
 
-# Credentials
+# Firebase
+.firebaserc
 creds.data

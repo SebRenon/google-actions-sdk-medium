@@ -6,7 +6,10 @@ This project is the source code used for my article on Medium: [First hands on G
 
 The repository contains everything you need to create a Google Actions for the Google Assistant.
 
-### Tech used:
+# How to use it
+Follow the steps in the article, deploy a Firebase Cloud Function and then edit the action.json file by replacing "<YOUR_FIREBASE_CLOUD_FUNCTION_URL>" with your function's URL.
+
+# Tech used:
 - Node.js
 - Google Actions SDK
 - Firebase Cloud Functions
