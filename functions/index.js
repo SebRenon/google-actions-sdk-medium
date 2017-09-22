@@ -2,8 +2,6 @@
 
 // The Cloud Functions for Firebase SDK to create Cloud Functions and setup triggers.
 const functions = require('firebase-functions');
-// The Firebase Admin SDK
-require('firebase-admin');
 
 // Google Actions SDK
 const ActionsSdkApp = require('actions-on-google').ActionsSdkApp;
